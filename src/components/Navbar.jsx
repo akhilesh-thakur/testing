@@ -1,19 +1,18 @@
 // Navbar.js
-
 import React from 'react';
-import '../index.css'
+import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar2 = () => {
   return (
-    <nav className="bg-blue-500 p-4">
+    <nav className="bg-black p-4">
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
-          <div className="text-white text-xl font-bold">Your Logo</div>
+          <Link to="/" className="text-white text-xl font-bold">TestingR</Link>
           <div className="flex space-x-4">
-            <a href="#" className="text-white">Home</a>
-            <a href="#" className="text-white">About</a>
-            <a href="#" className="text-white">Services</a>
-            <a href="#" className="text-white">Contact</a>
+            <Link to="/" className="text-white">Home</Link>
+            <Link to="/about" className="text-white">About</Link>
+            <Link to="/services" className="text-white">Services</Link>
+            <Link to="/contact" className="text-white">Contact</Link>
           </div>
         </div>
       </div>
@@ -21,4 +20,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar2;
