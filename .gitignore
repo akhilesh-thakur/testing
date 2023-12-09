@@ -1,1 +1,17 @@
-gitignore.txt
+# Dependency directories
+node_modules/
+
+# Production build directory
+dist/
+
+# Vite cache
+node_modules/.vite/
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
