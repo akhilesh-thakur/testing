@@ -12,10 +12,10 @@ const AppRoutes = () => {
     <Router>
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/testing/" element={<Home />} />
+        <Route path="/testing/about" element={<About />} />
+        <Route path="/testing/services" element={<Services />} />
+        <Route path="/testing/contact" element={<Contact />} />
       </Routes>
     </Router>
   );

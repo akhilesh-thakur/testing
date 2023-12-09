@@ -3,7 +3,7 @@ import React from 'react';
 
 const Home = () => {
   const backgroundStyle = {
-    backgroundImage: 'url("./public/img.webp")',
+    backgroundImage: 'url("./img.webp")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     height: '100vh', 
